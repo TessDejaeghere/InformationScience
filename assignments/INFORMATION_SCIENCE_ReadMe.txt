@@ -10,7 +10,7 @@ NECESSARY PACKAGES!
 
 !!!!!!!!!! IMPORTANT: 
 THESE ARE JUST PACKAGES TO MAKE THE OUTPUT LOOK FANCY.
-IF THE RICH PACKAGE OR THE TQDM PACKAGE CAUSES YOU TROUBLE, PLEASE OPEN ONE OF THESE FILES:
+IF THE RICH PACKAGE OR THE TQDM PACKAGE CAUSES YOU TROUBLE, PLEASE OPEN ONE OF THESE FILES IN THE ASSIGNMENTS FOLDER:
 
 "INFORMATION_SCIENCE_EXAM_TessDejaeghere_No_Rich_package.ipynb"
 OR
@@ -84,18 +84,18 @@ LIMITATIONS!
 ----------------------------------
 Please know that we have a lot of other exam projects which are difficult and time-consuming.
 I did everything I could to get a result that worked, but sadly I had to take the time
-limitations into account. :(
+limitations into account.
 
 > The app will fail if the author name contains extended ASCII. I tried everything,
 nothing worked.
 
-> The full title has to be typed by the user according to how it's present in the database.
-There are no clear rules regarding capitalization for these titles. Sometimes the small words such as
-'and', 'the', or 'upon' were capitalized, sometimes they weren't. 
-Consequently, I was unable to format the titles 100% correctly, 
-and I chose to let the user search for the full title as it is present in the database. 
+> I wrote this program with the link we initially got. This returned an ISBN for about 7/10 books.
+Consequently, I was able to fetch an image for a lot of books from the Open Library API.
+Sadly, the new link does not return a lot of ISBNs (the info is simply NOT THERE.).
+So this app doesn't return a lot of images. If you would like to test this feature, please try the following searches:
 
-	E.g.: "Harry Potter and the Deathly Hallows" will return a correct result,
-	while "harry potter and the deathly hallows" will not.
+		> Harry Potter and the Deathly Hallows
+		> Wonderland (novella)
+		> ...
 
 
