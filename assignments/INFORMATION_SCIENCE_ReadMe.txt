@@ -8,6 +8,16 @@ NECESSARY PACKAGES!
 * !pip install tqdm
 * !pip install rich
 
+!!!!!!!!!! IMPORTANT: 
+THESE ARE JUST PACKAGES TO MAKE THE OUTPUT LOOK FANCY.
+IF THE RICH PACKAGE OR THE TQDM PACKAGE CAUSES YOU TROUBLE, PLEASE OPEN ONE OF THESE FILES:
+
+"INFORMATION_SCIENCE_EXAM_TessDejaeghere_No_Rich_package.ipynb"
+OR
+"INFORMATION_SCIENCE_EXAM_TessDejaeghere_No_Rich_package.py"
+
+THEY DO THE SAME THING, BUT IN RAW PYTHON.
+
 > run the first code block to import all the necessary modules
 
 APP INFO
