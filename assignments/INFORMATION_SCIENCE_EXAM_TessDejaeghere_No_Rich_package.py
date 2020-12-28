@@ -21,7 +21,6 @@ import urllib
 import xmltodict
 
 import time
-from tqdm.auto import tqdm
 
 from PIL import Image
 import requests
@@ -152,8 +151,6 @@ def user_input():
             checker=1
         elif answer == "no": #if the answer = no, loading bar + back to main page
             print("Let me take you back!")
-            for num in tqdm(range(100), desc= "Going back to main page..."):
-                time.sleep(0.01)
     return(book)
 
 
